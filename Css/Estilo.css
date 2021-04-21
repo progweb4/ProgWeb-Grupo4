@@ -1,0 +1,249 @@
+.b {
+    width: 21.875rem;
+    padding: 0.625rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #262626;
+    /*#0e49b5;*/
+    text-align: center;
+}
+
+.b h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.sColor {
+    color: #ffffff;
+}
+
+.group {
+    color: white;
+}
+
+.b input[type="text"],
+.b input[type="code"],
+.b input[type="password"] {
+    border: 0;
+    background: white;
+    display: block;
+    margin: 1.25rem auto;
+    text-align: center;
+    border: 0.125rem solid #ffffff;
+    padding: 0.875rem 0.625rem;
+    width: 12.5rem;
+    outline: none;
+    color: black;
+    border-radius: 1.5rem;
+    transition: 0.25s;
+}
+
+.b input[type="text"]:focus,
+.b input[type="code"]:focus,
+.b input[type="password"]:focus {
+    width: 280px;
+    border-color: #262626;
+}
+
+
+.b button {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #cdb30c;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    text-decoration-color: white;
+    border-radius: 1.5rem;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.b button a{
+    color: white;
+}
+
+.b button:hover {
+    background: #cdb30c;
+}
+
+
+/* X-Small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .b {
+        width: 21.875rem;
+        padding: 0.625rem;
+    }
+    .b input[type="text"],
+    .b input[type="code"],
+    .b input[type="password"] {
+        width: 80%;
+        margin-bottom: 0;
+    }
+    .b input {
+        width: 50%;
+    }
+}
+
+
+/* Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767.98px) {
+    .b {
+        width: 21.875rem;
+        padding: 0.625rem;
+        transform: translate(-50%, -50%);
+    }
+    .b input[type="text"],
+    .b input[type="code"],
+    .b input[type="password"] {
+        width: 80%;
+        margin-bottom: 0;
+    }
+    .b input {
+        width: 50%;
+    }
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {}
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1199.98px) {}
+
+.color1 {
+    color: #ffffff;
+    text-anchor: 24px;
+    text-align: center;
+    background: #0e49b5;
+    /*margin: 6px auto;*/
+    width: 110%;
+    height: 100px;
+}
+
+.colorR {
+    color: #ffffff;
+}
+
+.iconHead {
+    padding: 0 6px;
+    float: right;
+    width: 24.99999%;
+    transform: scaleX(-1);
+    width: 200%;
+    /*margin-right: auto;*/
+    max-width: 55%;
+    /* Tamaño imagen*/
+    height: auto;
+}
+
+.a {
+    color: white;
+}
+
+
+/*.carousel,
+.carousel-inner>.item>img {
+    height: 500px;
+}*/
+
+.footer-dark {
+    padding: 50px 0;
+    color: #f0f9ff;
+    background-color: #262626
+}
+
+.footer-dark h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-dark ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.footer-dark ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social>a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+.footer-dark .item.social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
